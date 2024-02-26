@@ -1,0 +1,38 @@
+:root {
+  --main-color: #FFB400;
+  --dark-color: #2A2A2A;
+  --background-color: #F5F5F5;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    max-width: 694px;
+  }
+}
+
+@media (max-width: 720px) {
+  .wrapper {
+    padding: 0 32px;
+  }
+}

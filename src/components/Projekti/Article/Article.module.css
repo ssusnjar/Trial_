@@ -1,0 +1,49 @@
+.article{
+    margin-top: 100px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0px 3%;
+}
+
+.image{
+    width: 100%;
+    height: auto;
+    margin-bottom:10px ;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "poppins", sans-serif;
+    margin: 0px;
+}
+
+.description{
+    font-size: 17px;
+    font-family: "poppins", sans-serif;
+    max-width: 100%;
+   
+}
+
+.info{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0px;
+}
+.year{
+    font-size: 17px;
+    font-family: "poppins", sans-serif;
+
+}
+
+
+
+@media (max-width:972px){
+    .article{
+       margin: 30px auto;
+        width: 80%;
+    }
+}

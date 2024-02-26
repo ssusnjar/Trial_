@@ -1,0 +1,29 @@
+.section {
+    min-height: 28vh;
+    background: url('../../assets/naslovna.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+    max-width: 64%;
+    margin: 0 auto;
+}
+
+@media (max-width:768px) {
+
+    .section {
+        min-height: 20vh;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+
+}
