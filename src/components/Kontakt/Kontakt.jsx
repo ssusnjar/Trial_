@@ -15,9 +15,13 @@ const Kontakt = () => {
         </p>
         <hr className={styles.line}></hr>
         <About />
-        <p>
-          Sve Vaše upite, pohvale, pritužbe ili upite vezane za način podnošenja i rješavanja pritužbi<br />
-          možete dostaviti e-mailom na: <a href="mailto:info@trial.hr">info@trial.hr</a>.
+       <p className={styles.footerText}>
+          Sve Vaše upite, pohvale, pritužbe ili upite vezane za način podnošenja
+          i rješavanja <br />
+          pritužbi možete dostaviti e-mailom na:{" "}
+          <a href="mailto:info@trial.hr" className={styles.emailLink}>
+            info@trial.hr
+          </a>.
         </p>
       </div>
     </div>

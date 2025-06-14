@@ -44,41 +44,38 @@
     margin: 20px;
 }
 
-@media (max-width:972px){
-    .title{
-        font-size: 28px;
-        text-align: center;
-    }
+@media (max-width: 768px) {
+  .title {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0;
+  }
 
+  .description,
+  .description2,
+  .descriptionTitle {
+    font-size: 15px;
+    line-height: 24px;
+  }
 
-    .description{
-        font-size: 18px;
-        margin-top: 1px;
-        margin-bottom: 1px;
-    }
-    
-    .description2{
-        font-size: 18px;
-        margin-top: 1px;
-        margin-bottom: 1px;
-    }
+  .icon {
+    width: 30px;
+    margin: 5px;
+  }
 
-    .icon{
-        width: 35px;
-        height: auto;
-        margin: 8px;
-    }
+  .iconT {
+    width: 28px;
+    margin: 5px;
+  }
 
-    .line{
-        width: 80%;
-        margin: 30px auto;
-    }
+  .line {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 90%;
+    margin: 20px auto;
+  }
 
-    .iconT{
-        width: 32px;
-        height: auto;
-        margin: 10px;
-    }
-    
-
+  .text {
+    margin-left: 10px;
+  }
 }

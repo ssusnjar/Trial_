@@ -17,12 +17,27 @@
     width: 30%;
 }
 
+.footerText {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 80%;
+  margin-top: 40px;
+}
 
 @media (max-width:972px) {
+    .mapFrame {
+    height: 280px;
+    }
+
 
     .location {
         max-width: 80%;
         display: flex;
         justify-content: center;
+    }
+
+    .footerText {
+    font-size: 15px;
+    line-height: 1.5;
     }
 }
